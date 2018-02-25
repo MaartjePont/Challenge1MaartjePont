@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Challenge 1</title>
+	<meta charset="utf-8">
+	<title>Challenge 1 - Maartje Pont</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" href="styles/constants.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
+	<div id='stars'>
+	</div>
+	<div id='stars2'>
+	</div>
+	<div id='stars3'>
+	</div>
+	<div class="block name">
+		<div id="title">
+			<h1>SPACEX</h1> 
+		</div>
+	</div>
+	<div class="dashboard-grid">
+		<div class="block speed">
+			<div id="title">
+				<span>SNELHEID</span> 
+			</div>
+			<div class="graphic speedGraphic">
+				<div class="speedometer speed-1">
+  					<div class="pointer"></div>
+				</div>
+				<h2>36.580 km/u</h2>
+				<div id="flip">Grafiek Snelheidsverloop</div>
+				<div id="panel">Grafiek snelheidsverloop</div>
+			</div>
+		</div>
+		<div class="block fuel">
+			<div id="title">
+				<span>BRANDSTOF</span> 
+			</div>
+			<div class="graphic fuelGraphic">
+			</div>
+		</div>
+		<div class="block gForce">
+			<div id="title">
+				<span>G-FORCE</span> 
+			</div>
+			<div class="graphic gForceGraphic">
+			</div>
+		</div>
+		<div class="block length">
+			<div id="title">
+				<span>NAAR MARS</span> 
+			</div>
+			<div class="graphic lenghtGraphic">
+			</div>
+		</div>
+		<div class="block drink">
+			<div id="title">
+				<span>DRINKEN</span> 
+			</div>
+			<div class="graphic drinkGraphic">
+			</div>
+		</div>
+		<div class="block food">
+			<div id="title">
+				<span>ETEN</span> 
+			</div>
+			<div class="graphic foodGraphic">
+			</div>
+		</div>
+	</div>
+	<!--<script type="text/javascript" src="scrips/canvasjs.min.js"></script>-->
+	<!--<script type="text/javascript" src="scripts/Chart.bundle.js"></script>-->
+	<!--<script type="text/javascript" src="scripts/scripts.js"></script>-->
+	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  			$("#flip").click(function(){
+    			$("#panel").slideToggle("slow");
+  			});
+		});
+	</script>
 </body>
 </html>
