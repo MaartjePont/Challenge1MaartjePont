@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<title>Challenge 1 - Maartje Pont</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link type="text/css" href="styles/constants.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/constants.css">
+	<link rel="stylesheet" type="text/css" href="styles/loading-bar.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -29,8 +30,6 @@
   					<div class="pointer"></div>
 				</div>
 				<h2>36.580 km/u</h2>
-				<div id="flip">Grafiek Snelheidsverloop</div>
-				<div id="panel">Grafiek snelheidsverloop</div>
 			</div>
 		</div>
 		<div class="block fuel">
@@ -38,6 +37,12 @@
 				<span>BRANDSTOF</span> 
 			</div>
 			<div class="graphic fuelGraphic">
+				<div class="ldBar label-center" style="width:100%;height:250px; max-width: 190px; max-height: 190px; margin: auto;"
+				data-value="64"
+				data-preset="circle"
+				data-stroke="#EDC3FF"
+				data-stroke-trail="white">
+				</div>
 			</div>
 		</div>
 		<div class="block gForce">
@@ -45,6 +50,7 @@
 				<span>G-FORCE</span> 
 			</div>
 			<div class="graphic gForceGraphic">
+				<canvas id="line-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
 			</div>
 		</div>
 		<div class="block length">
@@ -52,6 +58,12 @@
 				<span>NAAR MARS</span> 
 			</div>
 			<div class="graphic lenghtGraphic">
+				<figure>
+					<figcaption>DAG 18</figcaption>
+					<img src="styles/images/naar-mars.png" style="width: 100%; height: auto;">
+					<figcaption>Nog 25.665.234 van de 55.768.006 km
+						<br>
+					Nog 22 van de 40 dagen</figcaption>
 			</div>
 		</div>
 		<div class="block drink">
@@ -59,6 +71,7 @@
 				<span>DRINKEN</span> 
 			</div>
 			<div class="graphic drinkGraphic">
+				<canvas id="bar-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
 			</div>
 		</div>
 		<div class="block food">
@@ -66,19 +79,13 @@
 				<span>ETEN</span> 
 			</div>
 			<div class="graphic foodGraphic">
+				<canvas id="polar-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
 			</div>
 		</div>
 	</div>
-	<!--<script type="text/javascript" src="scrips/canvasjs.min.js"></script>-->
-	<!--<script type="text/javascript" src="scripts/Chart.bundle.js"></script>-->
-	<!--<script type="text/javascript" src="scripts/scripts.js"></script>-->
+	<script type="text/javascript" src="scripts/Chart.bundle.js"></script>
+	<script type="text/javascript" src="scripts/loading-bar.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
 	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
-	<script>
-		$(document).ready(function(){
-  			$("#flip").click(function(){
-    			$("#panel").slideToggle("slow");
-  			});
-		});
-	</script>
 </body>
 </html>

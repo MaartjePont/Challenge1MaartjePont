@@ -10472,9 +10472,9 @@ defaults._set('global', {
 		animationDuration: 400
 	},
 	onClick: null,
-	defaultColor: 'rgba(0,0,0,0.1)',
-	defaultFontColor: '#666',
-	defaultFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+	defaultColor: 'rgba(237, 195, 255, 1)',
+	defaultFontColor: '#fff',
+	defaultFontFamily: "'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
 	defaultFontSize: 12,
 	defaultFontStyle: 'normal',
 	showLines: true,
@@ -11343,14 +11343,14 @@ defaults._set('scale', {
 	// grid line settings
 	gridLines: {
 		display: true,
-		color: 'rgba(0, 0, 0, 0.1)',
+		color: 'rgba(255,255,255,0.3)',
 		lineWidth: 1,
 		drawBorder: true,
 		drawOnChartArea: true,
 		drawTicks: true,
 		tickMarkLength: 10,
 		zeroLineWidth: 1,
-		zeroLineColor: 'rgba(0,0,0,0.25)',
+		zeroLineColor: 'rgba(255,255,255,0.3)',
 		zeroLineBorderDash: [],
 		zeroLineBorderDashOffset: 0.0,
 		offsetGridLines: false,
@@ -17348,7 +17348,7 @@ module.exports = function(Chart) {
 			showLabelBackdrop: true,
 
 			// String - The colour of the label backdrop
-			backdropColor: 'rgba(255,255,255,0.75)',
+			backdropColor: '#000',
 
 			// Number - The backdrop padding above & below the label in pixels
 			backdropPaddingY: 2,

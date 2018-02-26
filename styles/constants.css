@@ -124,7 +124,7 @@ body {
 }
 
 #panel {
-  height: 100px;
+  height: auto;
   display: none;
   color: white;
 }
@@ -192,12 +192,27 @@ body {
   }
 }
 
+/*fuel*/
+
+.ldBar-label {
+  color: white;
+  font-family: lato;
+  font-size: 25px;
+} 
+
 h2 {
   text-align: center;
   color: white;
   font-weight: normal;
 }
 
+/*naar mars*/
+
+figcaption {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
 
 @media screen and (min-width: 500px) {
   .dashboard-grid {
