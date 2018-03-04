@@ -21,6 +21,7 @@
 		</div>
 	</div>
 	<div class="dashboard-grid">
+		
 		<div class="block speed">
 			<div id="title">
 				<span>SNELHEID</span> 
@@ -28,64 +29,73 @@
 			<div class="graphic speedGraphic">
 				<div class="speedometer speed-1">
   					<div class="pointer"></div>
+  					<h2>36.580 km/u</h2>
 				</div>
-				<h2>36.580 km/u</h2>
 			</div>
 		</div>
+		
 		<div class="block fuel">
 			<div id="title">
 				<span>BRANDSTOF</span> 
 			</div>
 			<div class="graphic fuelGraphic">
-				<div class="ldBar label-center" style="width:100%;height:250px; max-width: 190px; max-height: 190px; margin: auto;"
-				data-value="64"
+				<div class="ldBar label-center" style="width: 100%; height: 100%; margin: auto;"
+				data-value="86"
 				data-preset="circle"
 				data-stroke="#EDC3FF"
 				data-stroke-trail="white">
 				</div>
 			</div>
 		</div>
+		
 		<div class="block gForce">
 			<div id="title">
 				<span>G-FORCE</span> 
 			</div>
 			<div class="graphic gForceGraphic">
-				<canvas id="line-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
+				<canvas id="line-chart" style="width: 100%; height: 250px;"></canvas>
 			</div>
 		</div>
+		
 		<div class="block length">
 			<div id="title">
 				<span>NAAR MARS</span> 
 			</div>
 			<div class="graphic lenghtGraphic">
 				<figure>
-					<figcaption>DAG 18</figcaption>
-					<img src="styles/images/naar-mars.png" style="width: 100%; height: auto;">
-					<figcaption>Nog 25.665.234 van de 55.768.006 km
+					<figcaption id="day">DAG 96
+					</figcaption>
+					<img src="styles/images/naar-mars-4.png" style="width: 100%;">
+					<figcaption>
 						<br>
-					Nog 22 van de 40 dagen</figcaption>
+						Nog 135.000.000 van de 225.000.000 km
+						<br><br>
+					Nog 144 van de 240 dagen
+					</figcaption>
+				</figure>
 			</div>
 		</div>
+		
 		<div class="block drink">
 			<div id="title">
 				<span>DRINKEN</span> 
 			</div>
 			<div class="graphic drinkGraphic">
-				<canvas id="bar-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
+				<canvas id="bar-chart" style="width: 100%; height: 250px;"></canvas>
 			</div>
 		</div>
+		
 		<div class="block food">
 			<div id="title">
 				<span>ETEN</span> 
 			</div>
 			<div class="graphic foodGraphic">
-				<canvas id="polar-chart" style="width: 100%; height: 250px; margin: 2px;"></canvas>
+				<canvas id="polar-chart" style="width: 100%; height: 250px;"></canvas>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="scripts/Chart.bundle.js"></script>
 	<script type="text/javascript" src="scripts/loading-bar.js"></script>
 	<script type="text/javascript" src="scripts/scripts.js"></script>
-	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
 </body>
 </html>

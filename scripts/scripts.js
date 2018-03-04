@@ -50,12 +50,12 @@ new Chart(document.getElementById("bar-chart"), {
 new Chart(document.getElementById("polar-chart"), {
     type: 'polarArea',
     data: {
-      labels: ["Groente", "Vlees", "Pap", "Fruit", "Snoep"],
+      labels: ["Vlees", "Pap", "Groente", "Fruit", "Snoep"],
       datasets: [
         {
           label: "Voedselvoorraad",
           backgroundColor: ["#EDC3FF", "#878787","#D0FFF4","#FFB200","#72348D"],
-          data: [322,278,243,284,80]
+          data: [243,278,322,284,80]
         }
       ]
     },

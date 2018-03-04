@@ -85,7 +85,7 @@ body {
 /*blocks*/
 
 .block {
-	margin: 20px;
+	margin: 10px;
 }
 
 .graphic {
@@ -111,32 +111,18 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-#panel, #flip {
-  padding: 5px;
-  text-align: center;
-  border: 1px solid rgba(237, 195, 255, 1);
-  cursor: pointer;
-}
-
-#flip {
-  height: 20px;
-  color: white;
-}
-
-#panel {
-  height: auto;
-  display: none;
-  color: white;
-}
-
 /*speed*/
+
+.speedGraphic {
+  height: 190px;
+}
 
 .speedometer {
   width: 200px;
   height: 100px;
   position: relative;
   border-radius: 200px 200px 0 0;
-  margin: 20px auto;
+  margin: auto;
 }
 .speedometer:after {
   background-color: #000;
@@ -192,7 +178,18 @@ body {
   }
 }
 
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  padding-top: 110px;
+}
+
 /*fuel*/
+
+.fuelGraphic {
+  height: 190px;
+}
 
 .ldBar-label {
   color: white;
@@ -200,18 +197,25 @@ body {
   font-size: 25px;
 } 
 
-h2 {
-  text-align: center;
-  color: white;
-  font-weight: normal;
+/*naar mars*/
+
+.lenghtGraphic {
+  height: 250px;
 }
 
-/*naar mars*/
+figure {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 figcaption {
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+#day {
+  font-size: 26px;
 }
 
 @media screen and (min-width: 500px) {
@@ -261,11 +265,11 @@ figcaption {
     grid-row: 1 / 2;
   }
   .gForce {
-    grid-column: 3 / 5;
+    grid-column: 1 / 3;
     grid-row: 2 / 3;
   }
   .length {
-    grid-column: 1 / 3;
+    grid-column: 3 / 5;
     grid-row: 2 / 3;
   }
   .drink {
@@ -290,7 +294,7 @@ figcaption {
   }
   .fuel {
     grid-column: 2 / 3;
-    grid-row: 1 / 3;
+    grid-row: 1 / 2;
   }
   .gForce {
     grid-column: 3 / 4;
@@ -307,5 +311,24 @@ figcaption {
   .food {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+  }
+
+  .fuelGraphic {
+    height: 250px;
+  }
+
+  .speedGraphic {
+    height: 250px;
+  }
+
+  .speedometer {
+    width: 250px;
+    height: 125px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    padding-top: 150px;
+    font-size: 34px;
   }
 }
