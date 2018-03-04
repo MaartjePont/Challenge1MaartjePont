@@ -65,19 +65,13 @@ body {
 }
 
 /*dashboard name*/
-#title h1 {
-  color: #FFF;
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 350;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin: 0px;
-}
-#title h1 {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#logo {
+  width: 100%;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  display: block;
 }
 
 /*blocks*/
