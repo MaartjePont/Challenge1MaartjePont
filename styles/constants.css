@@ -1,5 +1,4 @@
 /*background*/
-
 body {
   background-color: #090a0f;
   font-family: "lato", sans-serif;
@@ -66,7 +65,6 @@ body {
 }
 
 /*dashboard name*/
-
 #title h1 {
   color: #FFF;
   text-align: center;
@@ -90,7 +88,7 @@ body {
 
 .graphic {
 	width: auto;
-	height: auto;
+	height: 260px;
 	background-color: rgba(255, 255, 255, 0.1);
   border: 3px solid rgba(237, 195, 255, 1);
   margin: auto;
@@ -182,11 +180,11 @@ h2 {
   text-align: center;
   color: white;
   font-weight: normal;
+  font-size: 2em;
   padding-top: 110px;
 }
 
 /*fuel*/
-
 .fuelGraphic {
   height: 190px;
 }
@@ -197,12 +195,10 @@ h2 {
   font-size: 25px;
 } 
 
+/*g-force*/
+
+
 /*naar mars*/
-
-.lenghtGraphic {
-  height: 250px;
-}
-
 figure {
   margin-right: 10px;
   margin-left: 10px;
@@ -230,7 +226,7 @@ figcaption {
   }
   .fuel {
     grid-column: 2 / 3;
-    grid-row: 1 / 3;
+    grid-row: 1 / 2;
   }
   .gForce {
     grid-column: 1 / 2;
@@ -280,6 +276,10 @@ figcaption {
     grid-column: 3 / 5;
     grid-row: 3 / 4;
   }
+
+  .speedometer {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -314,17 +314,17 @@ figcaption {
   }
 
   .fuelGraphic {
-    height: 250px;
+    height: 260px;
   }
 
   .speedGraphic {
-    height: 250px;
+    height: 260px;
   }
 
   .speedometer {
     width: 250px;
     height: 125px;
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   h2 {
