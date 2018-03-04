@@ -158,16 +158,16 @@ body {
 
 @keyframes speed-1 {
   from {
-    -moz-transform: rotate(200deg);
-    -ms-transform: rotate(200deg);
-    -webkit-transform: rotate(200deg);
-    transform: rotate(200deg);
+    -moz-transform: rotate(220deg);
+    -ms-transform: rotate(220deg);
+    -webkit-transform: rotate(220deg);
+    transform: rotate(220deg);
   }
   to {
-    -moz-transform: rotate(210deg);
-    -ms-transform: rotate(210deg);
-    -webkit-transform: rotate(210deg);
-    transform: rotate(210deg);
+    -moz-transform: rotate(230deg);
+    -ms-transform: rotate(230deg);
+    -webkit-transform: rotate(230deg);
+    transform: rotate(230deg);
   }
 }
 
