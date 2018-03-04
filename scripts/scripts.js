@@ -7,7 +7,7 @@ new Chart(document.getElementById("line-chart"), {
     datasets: [{ 
         data: [1000,400,1000,1600,1000,400,1000,1600,1000,400,1000,1600,1000],
         label: "G-force",
-        borderColor: "#EDC3FF",
+        borderColor: "#3774D5",
         fill: false
       }
     ]
@@ -30,7 +30,7 @@ new Chart(document.getElementById("bar-chart"), {
       datasets: [
         {
           label: "Drinken",
-          backgroundColor: ["#EDC3FF", "#878787","#D0FFF4","#FFB200","#72348D"],
+          backgroundColor: ["#3774D5", "#878787","#D0FFF4","#FF9B00","#EDC3FF"],
           data: [312,186,50,118,20]
         }
       ]
@@ -50,12 +50,12 @@ new Chart(document.getElementById("bar-chart"), {
 new Chart(document.getElementById("polar-chart"), {
     type: 'polarArea',
     data: {
-      labels: ["Vlees", "Pap", "Groente", "Fruit", "Snoep"],
+      labels: ["Vlees", "Pap", "Fruit", "Groente", "Snoep"],
       datasets: [
         {
           label: "Voedselvoorraad",
-          backgroundColor: ["#EDC3FF", "#878787","#D0FFF4","#FFB200","#72348D"],
-          data: [243,278,322,284,80]
+          backgroundColor: ["#3774D5", "#878787","#D0FFF4","#FF9B00","#EDC3FF"],
+          data: [243,278,284,322,80]
         }
       ]
     },

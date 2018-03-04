@@ -84,7 +84,7 @@ body {
 	width: auto;
 	height: 260px;
 	background-color: rgba(255, 255, 255, 0.1);
-  border: 3px solid rgba(237, 195, 255, 1);
+  border: 3px solid #5D6376;
   margin: auto;
 }
 
@@ -150,7 +150,7 @@ body {
   height: 0;
 }
 .speedometer.speed-1 {
-  background-color: #EDC3FF;
+  background-color: #3774D5;
 }
 .speedometer.speed-1 > .pointer {
   animation-name: speed-1;
@@ -188,9 +188,6 @@ h2 {
   font-family: lato;
   font-size: 25px;
 } 
-
-/*g-force*/
-
 
 /*naar mars*/
 .lenghtGraphic {
@@ -346,6 +343,9 @@ figcaption {
     width: 250px;
     height: 125px;
     margin-top: 40px;
+  }
+  .speedometer > .pointer:after {
+    border-width: 110px 0 0 3px;
   }
 
   h2 {

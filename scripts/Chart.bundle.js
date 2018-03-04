@@ -10472,7 +10472,7 @@ defaults._set('global', {
 		animationDuration: 400
 	},
 	onClick: null,
-	defaultColor: 'rgba(237, 195, 255, 1)',
+	defaultColor: '#3774D5',
 	defaultFontColor: '#fff',
 	defaultFontFamily: "'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
 	defaultFontSize: 12,
