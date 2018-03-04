@@ -70,7 +70,7 @@ body {
   max-width: 400px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -106,15 +106,16 @@ body {
 /*speed*/
 
 .speedGraphic {
-  height: 190px;
+  height: 130px;
 }
 
 .speedometer {
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 75px;
   position: relative;
   border-radius: 200px 200px 0 0;
   margin: auto;
+  margin-top: 10px;
 }
 .speedometer:after {
   background-color: #000;
@@ -143,7 +144,7 @@ body {
   top: 0;
   left: 0;
   border-style: solid;
-  border-width: 90px 0 0 3px;
+  border-width: 70px 0 0 3px;
   border-color: #000 transparent transparent;
   width: 0;
   height: 0;
@@ -174,13 +175,12 @@ h2 {
   text-align: center;
   color: white;
   font-weight: normal;
-  font-size: 2em;
-  padding-top: 110px;
+  margin-top: 8px;
 }
 
 /*fuel*/
 .fuelGraphic {
-  height: 190px;
+  height: 130px;
 }
 
 .ldBar-label {
@@ -193,6 +193,10 @@ h2 {
 
 
 /*naar mars*/
+.lenghtGraphic {
+  height: auto;
+}
+
 figure {
   margin-right: 10px;
   margin-left: 10px;
@@ -237,6 +241,29 @@ figcaption {
   .food {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+  }
+
+  .speedGraphic {
+    height: 190px;
+  }
+  .speedometer {
+    width: 200px;
+    height: 100px;
+    margin-top: 25px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .speedometer > .pointer:after {
+    border-width: 90px 0 0 3px;
+  }
+
+  .fuelGraphic {
+    height: 190px;
+  }
+
+  .lenghtGraphic {
+    height: 260px;
   }
 }
 
@@ -318,11 +345,10 @@ figcaption {
   .speedometer {
     width: 250px;
     height: 125px;
-    margin-top: 35px;
+    margin-top: 40px;
   }
 
   h2 {
-    padding-top: 150px;
     font-size: 34px;
   }
 }
