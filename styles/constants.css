@@ -209,6 +209,8 @@ figcaption {
   font-size: 26px;
   text-align: center;
   color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 500px) {
