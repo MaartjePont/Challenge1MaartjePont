@@ -10475,7 +10475,7 @@ defaults._set('global', {
 	defaultColor: '#3774D5',
 	defaultFontColor: '#fff',
 	defaultFontFamily: "'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-	defaultFontSize: 14,
+	defaultFontSize: 12,
 	defaultFontStyle: 'normal',
 	showLines: true,
 
